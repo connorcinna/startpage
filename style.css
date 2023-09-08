@@ -4,10 +4,13 @@
 	padding: 0;
 }
 
+/*#1a1e26*/
+/*21262e*/
+/*dfdff2*/
 :root {
-	--bg-dark: #1a1e26;
-	--bg-dark2: #21262e;
-	--fg-dark: #dfdff2;
+	--bg-dark: #282828;
+	--bg-dark2: #1d2021;
+	--fg-dark: #ebdbb2;
 	--bg-light: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 	--bg-light2: #f9f9f9;
 	--fg-light: #6f798c;
@@ -15,7 +18,9 @@
 	--magenta: #db8e9d;
 	--yellow: #c9c76b;
 	--cyan: #78b3c5;
-	--font: 'Cozette', sans-serif;
+    --font: 'Terminus (TTF) for Windows', sans-serif;*/
+/*    --font: 'CozetteVector', sans-serif;*/
+
 }
 
 body {
@@ -47,7 +52,13 @@ button {
 	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 	-moz-appearance: none;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    border-radius: 25px;
+}
 .dark button {
 	background-color: var(--cyan);
 	color: var(--bg-dark);
@@ -62,7 +73,7 @@ button:hover {
 }
 
 #box {
-	height: 100vh;
+	height: 55vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
